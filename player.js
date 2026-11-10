@@ -23,7 +23,7 @@ async function searchVideos() {
 
   if (!term || busy) return;
 
-  if (API_KEY === "AIzaSyAIm-3I1TPg8vfggVAoobZOJbIwR-tPhbM") {
+  if (API_KEY === "PEGA_AQUI_TU_API_KEY") {
     message.textContent = "Configura primero tu API Key.";
     return;
   }
